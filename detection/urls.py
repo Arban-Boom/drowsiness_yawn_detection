@@ -1,14 +1,3 @@
-# from django.urls import path
-# from .views import home, home_view, login_view, register_view, logout_view, run_drowsiness_detection
-
-# urlpatterns = [
-#     path('', home, name='index'),
-#     path('home/', home_view, name='home'),
-#     path('login/', login_view, name='login'),
-#     path('register/', register_view, name='register'),
-#     path('logout/', logout_view, name='logout'),
-#     path('run/', run_drowsiness_detection, name='run_drowsiness'),
-# ]
 from django.urls import path
 from . import views
 
