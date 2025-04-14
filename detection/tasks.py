@@ -136,8 +136,6 @@ async def drowsiness_detection_task(
                         print("Playing audio alert...")
                         pygame.mixer.music.play()
                         print("call")
-                        # s = 'espeak "' + msg + '"'
-                        # await sync_to_async(os.system)(s)
 
                         alert = Alert(
                             driver=driver_profile,
@@ -181,8 +179,7 @@ async def drowsiness_detection_task(
                     pygame.mixer.music.play()
                     print("call")
                     saying = True
-                    # s = 'espeak "' + msg + '"'
-                    # await sync_to_async(os.system)(s)
+
                     saying = False
                     alarm_status2 = False  # Reset the alarm_status2 flag
 
